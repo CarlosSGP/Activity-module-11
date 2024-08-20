@@ -64,6 +64,7 @@ Further, when we look at feature importance on the Linear model, we get a sense 
 
 SFS_Linear_feature_importance.png
 
+
 We can see that the year is positively correlated. The fuel type is negatively correlated which means types like diesel and electric cars are more expensive. The cylinders are positively correlated which means the more cylinders the car has, the higher the price. 
 
 Conclusion
