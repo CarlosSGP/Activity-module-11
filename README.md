@@ -1,17 +1,21 @@
 # Activity-module-11
 
 **Introduction**
+
 This is an analysis of about 78K car sales in the US. With information on the make, model, mechanical differences and specifications, color, and the region it is in, we want to determine what particular features of the car are stronger predictors for the price.
 
 **The Business Problem**
+
 Our goal is to determine what particular features of the car are stronger predictors for the price. The data we are using contains different features which are both numerical (odometer tally, year, number of cylinders) and categorical (condition, type of car, manufacturer). There are also features that may have no relationship to the price at all (VIN, state, paint color). With so much data at hand, we need to determine which of these features help us properly predict car prices and which ones are less useful and so we should not include them in the training of our model. 
 
 **Preparing the Data**
+
 We will remove columns of data that we do not believe will have an impact on price. This was an iterative process as we looked at what our MSE and R2 is for the model as we tweaked which features to use. The features we are removing are 'VIN','id','region','state','model', and'paint_color'. We will also clean up some of the outlier data that might impact the accuracy of our models. For example, we will make sure to exclude price data that might've been wrongfully typed with prices that don't make sense (e.g. a car sold at $1 or a car sold at $10m). While it is possible that these events happened, as outliers they may not be reliable data to bias our model into. 
 
 **Data Analysis**
 
 **Features Used**
+
 The following features were used to predict the price of the car:
 
 year
