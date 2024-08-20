@@ -46,17 +46,28 @@ Lasso: RMSE = 10493.0662, R2 = 0.2946
 
 The best model was the Linear Regression model with a 104993.0477 MSE and a 0.2946 R2. We can also look at the coefficients for each feature for Linear regression as follows:
 
-Linear Regression Coefficients:
+**Linear Regression Coefficients:**
+
 year             363.693970
+
 manufacturer      18.855220
+
 condition         75.212238
+
 cylinders       2553.935106
+
 fuel           -5995.367777
+
 odometer          -0.008133
+
 title_status    -249.363372
+
 transmission    3491.518990
+
 drive           -865.213268
+
 size            -235.095838
+
 type               8.807758
 
 
